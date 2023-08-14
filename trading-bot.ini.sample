@@ -1,0 +1,10 @@
+[Aplo]
+aplo_base_url = 
+mpid = 
+mongodb_url = 
+slack_url =
+output_filename_root = 
+mongodb_database = 
+mongodb_hist_collections=
+mongodb_mapped_collections=
+credentials = 
