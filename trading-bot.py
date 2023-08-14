@@ -228,27 +228,7 @@ def main():
     mongodb_hist_collections=aplo_config.get("mongodb_hist_collections","")
     mongodb_mapped_collections=aplo_config.get("mongodb_mapped_collections","")
     
-#     aplo_base_url = 'https://uat.sheeldmatch.com/api'
-#     mpid='SMRT'
-#     base = aplo_base_url
 
-#     credentials = "xiaoxue.xiong@samara-am.com:Xx15168554363."
-#     encoded_credentials = base64.b64encode(credentials.encode("utf-8"))
-#     headers = {'Authorization': 'Basic %s' % str(encoded_credentials, "utf-8")}
-#     response = requests.get('%s/auth/signin' % base, headers=headers)
-#     bearer_token = json.loads(response.content)["authToken"]
-
-#     headers = {'Authorization': 'Bearer %s' % bearer_token}
-#     sor_iso_url = aplo_base_url + "/participants/SMRT/orders/sor/iso"
-#     mongodb_url = "mongodb+srv://xx2385:KXZHOAbfRy4lV2fb@aplo.2yifsgn.mongodb.net/?retryWrites=true&w=majority"
-
-
-#     slack_url="https://hooks.slack.com/services/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"
-#     SLACK_HEADER = {'Content-type' : 'application/json'}
-#     slack_msg = ""
-#     output_filename_root="orderscollector"
-#     mongodb_database="orders"
-    
 
     # Get the Local Timezone Today's Date
     
